@@ -1,1 +1,8 @@
-subject(Basics). subject(Relationships).
+subject(Basics). subject(Relationships). subject(Types). subject(Operations). subject(Properties). subject(Classification).
+
+form(Kinesthetic). form(Visual). form(Auditory).
+
+quiz(Sets). quiz(Types). quiz(Operations). quiz(Reflexivity). quiz(Transitivity). quiz(Antisymmetry). quiz(Symmetry). quiz(Partial_order).
+quiz(Total_order). quiz(Equivalent_relation).
+
+exam(Basics). exam(Types_Operations). exam(Properties). exam(Classification). exam(Final).
