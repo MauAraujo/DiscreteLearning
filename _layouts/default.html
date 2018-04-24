@@ -48,7 +48,11 @@
               .tar.gz file
             </a>
           {% endif %}
-      
+        
+         {% if site.github.is_project_page %}
+            <p class="repo-owner"><a href="{{ site.github.repository_url }}">{{ site.github.repository_name }}</a> is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>.</p>
+         {% endif %}
+          
           </br>
           <a href="https://mauaraujo.github.io/DiscreteLearning"> <h1>Inicio</h1></br> </a> 
           <a href="https://mauaraujo.github.io/DiscreteLearning/automata"> <h1>Autómata</h1></br> </a>   
