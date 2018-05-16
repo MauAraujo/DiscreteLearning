@@ -1,30 +1,20 @@
-
- /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+```
 package discreetlearning;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.lang.ProcessBuilder;
-/**
- *
- * @author mau
- */
+
 public class Builder {
 
     public static String result;
-    /**
-     * @param args the command line arguments
-     */
+  
     public static void watch(final Process process) {
     new Thread(){
         public void run() {
            Archivo output = new Archivo("plan_output");
-            /*BufferedReader input = new BufferedReader(new InputStreamReader(process.getInputStream()));
+            BufferedReader input = new BufferedReader(new InputStreamReader(process.getInputStream()));
             String line = null; 
             try {
                 while ((line = input.readLine()) != null) {
