@@ -7,10 +7,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.util.ArrayList;
 
-/**
- *
- * @author noe
- */
+
 public class Dlearning {
     public static String action;
     
@@ -103,3 +100,4 @@ public class Dlearning {
     }
        
 }
+´´´
